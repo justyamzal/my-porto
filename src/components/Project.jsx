@@ -11,7 +11,7 @@ const Project = () => {
       subtitle: "Web Streaming Platform",
       period: "Jul 2025 - Present",
       images: [
-        "/public/images/chill-1.png",
+        "/images/chill-1.png",
         "https://via.placeholder.com/800x450/8BC34A/FFFFFF?text=Chill+Screenshot+2",
         "https://via.placeholder.com/800x450/8BC34A/FFFFFF?text=Chill+Screenshot+3"
       ],
@@ -34,7 +34,7 @@ const Project = () => {
       subtitle: "Task Management App",
       period: "May 2025 - Jun 2025",
       images: [
-        "/public/images/todolist-1.png",
+        "/images/todolist-1.png",
         "https://via.placeholder.com/800x450/4CAF50/FFFFFF?text=Todo+Screenshot+2"
       ],
       responsibilities: [
@@ -56,7 +56,7 @@ const Project = () => {
       subtitle: "University Landing Page",
       period: "Apr 2025 - May 2025",
       images: [
-        "/public/images/eduford-1.png",
+        "/images/eduford-1.png",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+2",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+3",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+4"
