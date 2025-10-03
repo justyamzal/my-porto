@@ -87,7 +87,7 @@ const Project = () => {
       <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('chill')}>
-          <img src="/public/images/chill-1.png" alt="Chill" className="w-full h-60 object-cover group-hover:scale-105 transition" />
+          <img src="/images/chill-1.png" alt="Chill" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">Chill</h3>
             <p className="text-gray-400 mb-4">Chill is web streaming platform</p>
@@ -101,7 +101,7 @@ const Project = () => {
         </div>
 
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('todo')}>
-          <img src="/public/images/todolist-1.png" alt="To-Do-List" className="w-full h-60 object-cover group-hover:scale-105 transition" />
+          <img src="/images/todolist-1.png" alt="To-Do-List" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">To-Do-List</h3>
             <p className="text-gray-400 mb-4">App for listing activity that you wanna do</p>
@@ -115,7 +115,7 @@ const Project = () => {
         </div>
 
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('eduford')}>
-          <img src="/public/images/eduford-1.png" alt="Eduford" className="w-full h-60 object-cover group-hover:scale-105 transition" />
+          <img src="/images/eduford-1.png" alt="Eduford" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">Eduford</h3>
             <p className="text-gray-400 mb-4">Landing web profile for university</p>
