@@ -57,9 +57,9 @@ const Project = () => {
       period: "Apr 2025 - May 2025",
       images: [
         "/images/eduford-3.PNG",
-        "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+2",
-        "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+3",
-        "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+4"
+        "/images/about-3.png",
+        "/images/courses-3.png",
+        "/images/contact-3.png"
       ],
       responsibilities: [
         "Designing responsive landing page for university.",
