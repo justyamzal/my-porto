@@ -35,7 +35,7 @@ const Project = () => {
       period: "May 2025 - Jun 2025",
       images: [
         "/images/todolist-2.PNG",
-        "https://via.placeholder.com/800x450/4CAF50/FFFFFF?text=Todo+Screenshot+2"
+        "/images/activity-2.png"
       ],
       responsibilities: [
         "Building responsive task management interface.",
