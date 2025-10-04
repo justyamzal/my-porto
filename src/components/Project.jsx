@@ -83,7 +83,7 @@ const Project = () => {
   };
 
   return (
-    <section id="projects" className="py-16 px-6 md:px-12 lg:px-24 bg-gray-800">
+    <section id="projects" className="pt-35 pb-35 px-6 md:px-12 lg:px-24 bg-gray-800">
       <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('chill')}>
