@@ -12,8 +12,8 @@ const Project = () => {
       period: "Jul 2025 - Present",
       images: [
         "/images/chill-1.PNG",
-        "https://via.placeholder.com/800x450/8BC34A/FFFFFF?text=Chill+Screenshot+2",
-        "https://via.placeholder.com/800x450/8BC34A/FFFFFF?text=Chill+Screenshot+3"
+        "/images/login-1.PNG",
+        "/images/manage-1.png",
       ],
       responsibilities: [
         "Developing Video Streaming Platform Website.",
@@ -34,7 +34,7 @@ const Project = () => {
       subtitle: "Task Management App",
       period: "May 2025 - Jun 2025",
       images: [
-        "/images/todolist-1.PNG",
+        "/images/todolist-2.PNG",
         "https://via.placeholder.com/800x450/4CAF50/FFFFFF?text=Todo+Screenshot+2"
       ],
       responsibilities: [
@@ -56,7 +56,7 @@ const Project = () => {
       subtitle: "University Landing Page",
       period: "Apr 2025 - May 2025",
       images: [
-        "/images/eduford-1.PNG",
+        "/images/eduford-3.PNG",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+2",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+3",
         "https://via.placeholder.com/800x450/2196F3/FFFFFF?text=Eduford+Screenshot+4"
@@ -101,7 +101,7 @@ const Project = () => {
         </div>
 
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('todo')}>
-          <img src="/images/todolist-1.PNG" alt="To-Do-List" className="w-full h-60 object-cover group-hover:scale-105 transition" />
+          <img src="/images/todolist-2.PNG" alt="To-Do-List" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">To-Do-List</h3>
             <p className="text-gray-400 mb-4">App for listing activity that you wanna do</p>
@@ -115,7 +115,7 @@ const Project = () => {
         </div>
 
         <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('eduford')}>
-          <img src="/images/eduford-1.PNG" alt="Eduford" className="w-full h-60 object-cover group-hover:scale-105 transition" />
+          <img src="/images/eduford-3.PNG" alt="Eduford" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">Eduford</h3>
             <p className="text-gray-400 mb-4">Landing web profile for university</p>
