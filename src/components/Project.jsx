@@ -58,7 +58,7 @@ const Project = () => {
       images: [
         "/images/eduford-3.PNG",
         "/images/about-3.PNG",
-        "/images/courses-3.PNG",
+        "/images/course-3.PNG",
         "/images/contact-3.PNG"
       ],
       responsibilities: [
