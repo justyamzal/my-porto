@@ -13,8 +13,8 @@ const Hero = () => {
               I also interested in learning new things and push my self into next level.
             </p>
           </div>
-          <div className="md:w-1/3 flex justify-center">
-              <img src="/images/mypicture2.png" className="w-68 h-68 rounded-full bg-gray-700 flex items-center justify-center border-4 border-indigo-500 object-cover object-center scale-125" alt="" />
+          <div className="md:w-1/3 flex justify-center group cursor-pointer ">
+              <img src="/images/mypicture2.png" className="w-68 h-68 rounded-full bg-gray-700 flex items-center justify-center border-4 border-indigo-500 object-cover object-center scale-125 group-hover:scale-150 transition"  alt="" />
           </div>
         </div>
       </section>
