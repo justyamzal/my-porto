@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
       return (
-    <section id="education" className="pt-35 pb-35 px-6 md:px-12 lg:px-24 bg-gray-800">
+    <section id="education" className="pt-18 pb-28 px-6 md:px-12 lg:px-24 bg-gray-800">
       <h2 className="text-3xl font-bold text-center mb-12">Education & Courses</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-gray-900 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition duration-300">

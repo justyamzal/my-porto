@@ -5,6 +5,12 @@
 body {
       font-family: 'Inter', sans-serif;
     }
+
+
+    @layer components {
+    .pt-nav { @apply pt-32 md:pt-36; }
+    }
+
     .modal {
       display: none;
       position: fixed;

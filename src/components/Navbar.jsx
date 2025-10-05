@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-gray-800 p-4 z-50 shadow-lg">
-      <div className="container mx-auto flex justify-center space-x-8">
+      <div className="container mx-auto flex justify-center space-x-20">
         <button onClick={() => scrollToSection('about')} className="hover:text-indigo-400 transition">About</button>
         <button onClick={() => scrollToSection('education')} className="hover:text-indigo-400 transition">Education</button>
         <button onClick={() => scrollToSection('skills')} className="hover:text-indigo-400 transition">Skills</button>
