@@ -7,9 +7,36 @@ body {
     }
 
 
-    @layer components {
-    .pt-nav { @apply pt-32 md:pt-36; }
+    @keyframes fadeInUp {
+      from {
+        opacity:0;
+        transform: translateY(30px);
+      } to {
+        opacity:1;
+        transform: translateY(0);
+      }
     }
+
+    #hero-greeting {
+      opacity:0;
+      animation: fadeInUp 1s forwards 0.5s;
+    }
+
+    #hero-name {
+      opacity:0;
+      animation: fadeInUp 1s forwards 0.8s
+    }
+
+    #hero-description {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.1s
+    }
+
+    #hero-avatar {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.2s
+    }
+
 
     .modal {
       display: none;
