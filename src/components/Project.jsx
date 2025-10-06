@@ -84,9 +84,9 @@ const Project = () => {
 
   return (
     <section id="projects" className="pt-18 pb-28 px-6 md:px-12 lg:px-24 bg-gray-800">
-      <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
+      <h2 id='project-title' className="text-3xl font-bold text-center mb-12">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('chill')}>
+        <div id='project-1' className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('chill')}>
           <img src="/images/chill-1.PNG" alt="Chill" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">Chill</h3>
@@ -100,7 +100,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('todo')}>
+        <div id='project-2' className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('todo')}>
           <img src="/images/todolist-2.PNG" alt="To-Do-List" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">To-Do-List</h3>
@@ -114,7 +114,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('eduford')}>
+        <div id='project-3' className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition group cursor-pointer relative" onClick={() => openModal('eduford')}>
           <img src="/images/eduford-3.PNG" alt="Eduford" className="w-full h-60 object-cover group-hover:scale-105 transition" />
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2">Eduford</h3>

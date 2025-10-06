@@ -6,7 +6,7 @@ body {
       font-family: 'Inter', sans-serif;
     }
 
-
+    /*----- Hero ------*/
     @keyframes fadeInUp {
       from {
         opacity:0;
@@ -35,6 +35,64 @@ body {
     #hero-avatar {
       opacity:0;
       animation: fadeInUp 1s forwards 1.2s
+    }
+
+     /*----- Education & course ------*/
+
+    #edu-course-title {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.3s;
+    } 
+
+    #edu-col {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.3s;
+    }
+
+    #course-col {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.5s;
+    }
+
+    #skills-title {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.7s;
+    }
+
+    #frontend-skills {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.7s;
+    }
+
+    #backend-skills {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.8s;
+    }
+
+    #others-skills {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.9s;
+    }
+
+    /*----- Project ----- */
+
+    #project-title{
+      opacity:0;
+      animation: fadeInUp 1s forwards 2s;
+    }
+    
+    #project-1{
+      opacity:0;
+      animation: fadeInUp 1s forwards 2.2s;
+    }
+
+    #project-2{
+      opacity:0;
+      animation: fadeInUp 1s forwards 2.4s;
+    }
+    #project-3{
+      opacity:0;
+      animation: fadeInUp 1s forwards 2.6s;
     }
 
 
