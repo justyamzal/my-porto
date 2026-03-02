@@ -1,6 +1,7 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 body {
       font-family: 'Inter', sans-serif;
@@ -34,8 +35,14 @@ body {
 
     #hero-avatar {
       opacity:0;
-      animation: fadeInUp 1s forwards 1.2s
+      animation: fadeInUp 1s forwards 1.2s 
     }
+
+    #hero-button {
+      opacity:0;
+      animation: fadeInUp 1s forwards 1.4s
+    }
+
 
      /*----- Education & course ------*/
 
